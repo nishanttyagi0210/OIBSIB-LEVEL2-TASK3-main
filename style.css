@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Shantell+Sans:ital,wght@1,500&display=swap');
+body{
+    margin: 0;
+    background-image: linear-gradient(45deg, #33d214 25%, #8d8a7d 25%, #a6d1af 50%, #50544f 50%, #c73a87 75%, #64625a 75%, #6448f2 100%);
+background-size: 56.57px 56.57px;
+}
+.container{
+    width: 100%;
+}
+.input h1{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #273746;
+}
+.input{
+    background-color: rgb(119, 70, 70);
+    text-align: center;
+    margin: auto;
+   width: 600px;
+    /* border: 1px solid black; */
+     box-shadow: 0px 0px 2px #4fc8d0 ;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 0px;
+}
+.tasks{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    background-color: rgb(191, 72, 72);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    /* border: 1px solid black; */
+     box-shadow: 0px 0px 2px #1e2020 ;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.listitem{
+    padding:0px;
+    border-bottom: 0.5px solid #3aa3a3;
+    text-align: left;
+}
+.listitem:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+    color: rgb(193, 56, 56);
+    background-color: #2d9817;
+}
+
+.in{
+    font-size: 20px;
+    padding: 5px;
+   width: 400px;
+    border: 0.5px solid rgb(213, 46, 46);
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+.add{
+    font-size: 20px;
+    padding: 5px;
+    border: 0.5px solid rgb(138, 26, 26);
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    cursor: pointer;
+}
+.add:hover{ 
+    opacity: 0.8;
+}
